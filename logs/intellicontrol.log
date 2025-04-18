@@ -1,0 +1,79 @@
+2025-04-18 01:40:02,122 - IntelliControl - WARNING - GROQ_API_KEY not found in environment variables
+2025-04-18 01:40:02,124 - IntelliControl - INFO - Planned Steps: {'steps': [{'action': 'execute_command', 'target': 'hi'}, {'action': 'verify_execution', 'target': 'hi'}]}
+2025-04-18 01:40:02,126 - IntelliControl - INFO - Executing action: execute_command on target: hi
+2025-04-18 01:40:02,627 - IntelliControl - INFO - Executing action: verify_execution on target: hi
+2025-04-18 01:40:03,128 - IntelliControl - INFO - Execution Results: [{'action': 'execute_command', 'target': 'hi', 'success': True, 'message': 'Executed command: hi'}, {'action': 'verify_execution', 'target': 'hi', 'success': False, 'message': 'Unknown action: verify_execution'}]
+2025-04-18 01:40:03,128 - IntelliControl - INFO - Verification Output: [{'action': 'execute_command', 'target': 'hi', 'verified': True, 'message': 'Executed command: hi'}, {'action': 'verify_execution', 'target': 'hi', 'verified': False, 'message': 'Unknown action: verify_execution'}]
+2025-04-18 01:40:03,130 - IntelliControl - INFO - Event logged: hi
+2025-04-18 01:40:14,399 - IntelliControl - WARNING - GROQ_API_KEY not found in environment variables
+2025-04-18 01:40:14,400 - IntelliControl - INFO - Planned Steps: {'steps': [{'action': 'open_application', 'target': 'whatsapp'}, {'action': 'verify_application_opened', 'target': 'whatsapp'}]}
+2025-04-18 01:40:14,401 - IntelliControl - INFO - Executing action: open_application on target: whatsapp
+2025-04-18 01:40:14,903 - IntelliControl - INFO - Executing action: verify_application_opened on target: whatsapp
+2025-04-18 01:40:15,409 - IntelliControl - INFO - Execution Results: [{'action': 'open_application', 'target': 'whatsapp', 'success': False, 'message': 'Failed to open whatsapp: [WinError 2] The system cannot find the file specified'}, {'action': 'verify_application_opened', 'target': 'whatsapp', 'success': False, 'message': 'Unknown action: verify_application_opened'}]
+2025-04-18 01:40:15,409 - IntelliControl - INFO - Verification Output: [{'action': 'open_application', 'target': 'whatsapp', 'verified': False, 'message': 'Failed to open whatsapp: [WinError 2] The system cannot find the file specified'}, {'action': 'verify_application_opened', 'target': 'whatsapp', 'verified': False, 'message': 'Unknown action: verify_application_opened'}]
+2025-04-18 01:40:15,411 - IntelliControl - INFO - Event logged: open whatsapp
+2025-04-18 01:41:40,528 - IntelliControl - INFO - Starting GUI application...
+2025-04-18 01:41:40,566 - IntelliControl - INFO - Initializing IntelliControl GUI...
+2025-04-18 01:41:40,567 - IntelliControl - INFO - Setting up UI components...
+2025-04-18 01:41:40,585 - IntelliControl - INFO - UI setup completed
+2025-04-18 01:41:40,587 - IntelliControl - INFO - GUI initialization completed
+2025-04-18 01:41:40,648 - IntelliControl - INFO - GUI window displayed
+2025-04-18 01:43:27,713 - IntelliControl - INFO - Starting GUI application...
+2025-04-18 01:43:27,746 - IntelliControl - INFO - Initializing IntelliControl GUI...
+2025-04-18 01:43:27,746 - IntelliControl - INFO - Setting up UI components...
+2025-04-18 01:43:27,768 - IntelliControl - INFO - UI setup completed
+2025-04-18 01:43:27,769 - IntelliControl - INFO - GUI initialization completed
+2025-04-18 01:43:27,837 - IntelliControl - INFO - GUI window displayed
+2025-04-18 01:43:29,526 - IntelliControl - INFO - Microphone initialized successfully
+2025-04-18 01:43:29,559 - IntelliControl - INFO - Listening for voice command...
+2025-04-18 01:43:34,378 - IntelliControl - INFO - Could not understand audio
+2025-04-18 01:43:34,441 - IntelliControl - INFO - Listening for voice command...
+2025-04-18 01:43:41,446 - IntelliControl - INFO - Voice command recognized: open WhatsApp
+2025-04-18 01:43:41,458 - IntelliControl - WARNING - GROQ_API_KEY not found in environment variables
+2025-04-18 01:43:41,461 - IntelliControl - INFO - Planned Steps: {'steps': [{'action': 'open_application', 'target': 'whatsapp'}, {'action': 'verify_application_opened', 'target': 'whatsapp'}]}
+2025-04-18 01:43:41,463 - IntelliControl - INFO - Executing action: open_application on target: whatsapp
+2025-04-18 01:43:41,494 - IntelliControl - INFO - Listening for voice command...
+2025-04-18 01:43:41,965 - IntelliControl - INFO - Executing action: verify_application_opened on target: whatsapp
+2025-04-18 01:43:42,466 - IntelliControl - INFO - Execution Results: [{'action': 'open_application', 'target': 'whatsapp', 'success': False, 'message': 'Failed to open whatsapp: [WinError 2] The system cannot find the file specified'}, {'action': 'verify_application_opened', 'target': 'whatsapp', 'success': False, 'message': 'Unknown action: verify_application_opened'}]
+2025-04-18 01:43:42,466 - IntelliControl - INFO - Verification Output: [{'action': 'open_application', 'target': 'whatsapp', 'verified': False, 'message': 'Failed to open whatsapp: [WinError 2] The system cannot find the file specified'}, {'action': 'verify_application_opened', 'target': 'whatsapp', 'verified': False, 'message': 'Unknown action: verify_application_opened'}]
+2025-04-18 01:43:42,469 - IntelliControl - INFO - Event logged: open WhatsApp
+2025-04-18 01:43:47,178 - IntelliControl - INFO - Voice command recognized: open WhatsApp
+2025-04-18 01:43:47,185 - IntelliControl - WARNING - GROQ_API_KEY not found in environment variables
+2025-04-18 01:43:47,186 - IntelliControl - INFO - Planned Steps: {'steps': [{'action': 'open_application', 'target': 'whatsapp'}, {'action': 'verify_application_opened', 'target': 'whatsapp'}]}
+2025-04-18 01:43:47,189 - IntelliControl - INFO - Executing action: open_application on target: whatsapp
+2025-04-18 01:43:47,228 - IntelliControl - INFO - Listening for voice command...
+2025-04-18 01:43:47,694 - IntelliControl - INFO - Executing action: verify_application_opened on target: whatsapp
+2025-04-18 01:43:48,195 - IntelliControl - INFO - Execution Results: [{'action': 'open_application', 'target': 'whatsapp', 'success': False, 'message': 'Failed to open whatsapp: [WinError 2] The system cannot find the file specified'}, {'action': 'verify_application_opened', 'target': 'whatsapp', 'success': False, 'message': 'Unknown action: verify_application_opened'}]
+2025-04-18 01:43:48,196 - IntelliControl - INFO - Verification Output: [{'action': 'open_application', 'target': 'whatsapp', 'verified': False, 'message': 'Failed to open whatsapp: [WinError 2] The system cannot find the file specified'}, {'action': 'verify_application_opened', 'target': 'whatsapp', 'verified': False, 'message': 'Unknown action: verify_application_opened'}]
+2025-04-18 01:43:48,197 - IntelliControl - INFO - Event logged: open WhatsApp
+2025-04-18 01:43:49,023 - IntelliControl - INFO - Could not understand audio
+2025-04-18 01:43:49,068 - IntelliControl - INFO - Listening for voice command...
+2025-04-18 01:43:52,501 - IntelliControl - INFO - Could not understand audio
+2025-04-18 01:43:52,541 - IntelliControl - INFO - Listening for voice command...
+2025-04-18 01:43:56,497 - IntelliControl - INFO - Could not understand audio
+2025-04-18 01:43:56,551 - IntelliControl - INFO - Listening for voice command...
+2025-04-18 01:44:00,796 - IntelliControl - INFO - Could not understand audio
+2025-04-18 01:44:00,833 - IntelliControl - INFO - Listening for voice command...
+2025-04-18 01:44:03,152 - IntelliControl - INFO - Could not understand audio
+2025-04-18 01:44:03,213 - IntelliControl - INFO - Listening for voice command...
+2025-04-18 01:44:09,681 - IntelliControl - INFO - Could not understand audio
+2025-04-18 01:47:11,812 - IntelliControl - INFO - Starting GUI application...
+2025-04-18 01:47:11,855 - IntelliControl - INFO - Initializing IntelliControl GUI...
+2025-04-18 01:47:11,856 - IntelliControl - INFO - Setting up UI components...
+2025-04-18 01:47:14,795 - IntelliControl - INFO - UI setup completed
+2025-04-18 01:47:14,797 - IntelliControl - INFO - GUI initialization completed
+2025-04-18 01:47:14,870 - IntelliControl - INFO - GUI window displayed
+2025-04-18 01:47:16,447 - IntelliControl - INFO - Microphone initialized successfully
+2025-04-18 01:47:23,019 - IntelliControl - WARNING - GROQ_API_KEY not found in environment variables
+2025-04-18 01:47:23,022 - IntelliControl - INFO - Planned Steps: {'steps': [{'action': 'open_application', 'target': 'whatsapp'}, {'action': 'verify_application_opened', 'target': 'whatsapp'}]}
+2025-04-18 01:47:23,024 - IntelliControl - INFO - Executing action: open_application on target: whatsapp
+2025-04-18 01:47:23,526 - IntelliControl - INFO - Executing action: verify_application_opened on target: whatsapp
+2025-04-18 01:47:24,027 - IntelliControl - INFO - Execution Results: [{'action': 'open_application', 'target': 'whatsapp', 'success': False, 'message': 'Failed to open whatsapp: [WinError 2] The system cannot find the file specified'}, {'action': 'verify_application_opened', 'target': 'whatsapp', 'success': False, 'message': 'Unknown action: verify_application_opened'}]
+2025-04-18 01:47:24,029 - IntelliControl - INFO - Verification Output: [{'action': 'open_application', 'target': 'whatsapp', 'verified': False, 'message': 'Failed to open whatsapp: [WinError 2] The system cannot find the file specified'}, {'action': 'verify_application_opened', 'target': 'whatsapp', 'verified': False, 'message': 'Unknown action: verify_application_opened'}]
+2025-04-18 01:47:24,032 - IntelliControl - INFO - Event logged: open whatsapp
+2025-04-18 01:47:26,940 - IntelliControl - INFO - Listening for voice command...
+2025-04-18 01:47:30,359 - IntelliControl - INFO - Could not understand audio
+2025-04-18 01:47:30,590 - IntelliControl - INFO - Listening for voice command...
+2025-04-18 01:47:37,987 - IntelliControl - INFO - Could not understand audio
+2025-04-18 01:47:38,209 - IntelliControl - INFO - Listening for voice command...
+2025-04-18 01:47:44,158 - IntelliControl - INFO - Could not understand audio
